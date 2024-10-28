@@ -1,0 +1,143 @@
+.sect1div {
+    width: 394px;
+    height: 429;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+.sect1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 42px;
+    padding-top: 42px;
+
+}
+.sect4 {
+    padding-top: 42px;
+    padding-left: 78px;
+    padding-right: 78px;
+}
+.sect3 {
+    padding-bottom: 42px;
+    padding-top: 42px;
+}
+.sect2{
+    padding-bottom: 42px;
+    padding-top: 42px;
+}
+
+
+.sdt{
+    width: 310px;
+    height: 135px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h4 {
+    font-size: 27px;
+}
+
+
+.latestwork{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 42px;
+}
+
+.sect2div1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    gap: 24px;
+    justify-content: center;
+    justify-items: center
+}
+.sect2div2{
+    gap: 24px;
+}
+.sect2div2{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.sect2div2p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.sectdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.sect4div1 {
+    width: 570px;
+    height: 159px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.sectdiv1p{
+    width: 450px;
+}
+
+.sectdivimg {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.sectdiv2 {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.sect3div1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+    justify-content: center;
+    justify-items: center
+}
+
+.sectdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sect4h3 {
+    font-size: 42px;
+    padding-bottom: 42px;
+}
+
+#name {
+    width: 520px;
+    height: 59px;
+    background: #F3F3F3;
+}
+#email{
+    width: 520px;
+    height: 59px;
+    background: #F3F3F3;
+}
+.submit{
+    background-color: #2D2D2D;
+    color: var(--white);
+    font-size: 20px;
+    height: 78px;
+    width: 199px;
+}
